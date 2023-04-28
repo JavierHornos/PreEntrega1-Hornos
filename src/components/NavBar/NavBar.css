@@ -1,0 +1,12 @@
+li {
+    margin: 0.5rem ;
+    cursor: pointer;
+}
+
+img {
+    width: 16rem;
+}
+
+header {
+    color: white;
+}

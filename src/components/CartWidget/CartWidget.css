@@ -1,0 +1,10 @@
+.imgCarrito {
+    width: rem;
+}
+
+.carrito {
+    display: flex;
+    flex-direction: column;
+
+    
+}
