@@ -1,10 +1,8 @@
 .imgCarrito {
-    width: rem;
+    width: 2rem;
 }
 
-.carrito {
-    display: flex;
-    flex-direction: column;
-
-    
+.numerito {
+    color: black;
 }
+
