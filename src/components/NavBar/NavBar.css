@@ -14,6 +14,18 @@ li {
     cursor: pointer;
 }
 
+.NavLinkActivo {
+    text-decoration: none;
+    color: orange;
+
+}
+
+.NavLinkDesactivo {
+    text-decoration: none;
+    color: white;
+}
+
+
 li:hover{
     color: orange;
     text-decoration: none;
