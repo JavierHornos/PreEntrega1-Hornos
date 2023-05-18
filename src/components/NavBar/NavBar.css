@@ -14,18 +14,6 @@ li {
     cursor: pointer;
 }
 
-.NavLinkActivo {
-    text-decoration: none;
-    color: orange;
-
-}
-
-.NavLinkDesactivo {
-    text-decoration: none;
-    color: white;
-}
-
-
 li:hover{
     color: orange;
     text-decoration: none;
@@ -70,12 +58,11 @@ h1 {
 
 
 @media (max-width: 970px){
-    header {
+    header, li {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
 }
@@ -83,6 +70,13 @@ h1 {
 @media screen and (max-width:260px){
     li {
         display: none;
+    }
+
+    header, li {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 }
 
